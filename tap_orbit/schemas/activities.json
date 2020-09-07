@@ -1,0 +1,221 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "attributes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "action": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "created_at": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "key": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "occurred_at": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_created_at": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_html_url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_merged": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "g_merged_at": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_number": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_starred_at": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "is_pull_request": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "relationships": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "activity_type": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "member": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "repository": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
